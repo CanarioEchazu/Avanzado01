@@ -1,7 +1,7 @@
 ### First https://github.com/CanarioEchazu/Avanzado01.git
-## Previous
-## Next
-## Last https://github.com/CanarioEchazu/UltimoDeJavaScriptAvanzado
+### Previous
+### Next
+### Last https://github.com/CanarioEchazu/UltimoDeJavaScriptAvanzado
 
 
 
