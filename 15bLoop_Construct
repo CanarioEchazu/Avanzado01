@@ -1,0 +1,36 @@
+// inicio la variables
+let autos = [];
+let cantidadAutos = 0;
+let cantidadRegistrados = 0;
+
+// Ahora la funcion constructora
+function Auto(marca, modelo, annio) {
+  this.marca = marca;
+  this.modelo = modelo;
+  this.annio = annio;
+}
+
+//Cuantos autos va a registrar
+cantidadAutos = prompt("Cuantos autos desea registrar? ");
+
+// Aqui el ciclo para carga del usuario
+
+while (cantidadRegistrados < cantidadAutos) {
+  // Defino variables scope local
+  let marca = prompt("Marca: ");
+  let modelo = prompt("Modelo: ");
+  let annio = prompt("Annio");
+
+  //Paso las variables de scope local a la funcion constructora
+  var autoNuevo = new Auto(marca, modelo, annio);
+
+  // Agrego el auto a mi arreglo de autos
+  autos.unshift(autoNuevo);
+
+  // increento la cantidad de autos registrados en 1
+  cantidadRegistrados++;
+}
+
+/* Retorno en consola el arreglo de los autos
+   registrados por el usuario */
+console.log(autos);
