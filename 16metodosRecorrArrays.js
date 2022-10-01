@@ -11,7 +11,7 @@ var articulos = [
 // ahora voy a poner metodos para recorrer el arrray
 // Filtrar es array.filter
 var articulosFiltrados = articulos.filter(function(articulo){
-    return articulo.costo <= 500
+    return articulo.costo > 500
 });
 
 console.log(articulosFiltrados); // Para ver los objetos filtrados
