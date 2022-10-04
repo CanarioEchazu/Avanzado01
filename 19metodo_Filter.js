@@ -15,7 +15,8 @@ const productos = [
 
 
  const esBarato = producto => producto.precio < 1000;
- console.log(esBarato);  //[λ: esBarato] ​​​​​at ​​​​​​​​esBarato​​​ no tengo nada claro hasta que escribo la linea de abajo
+ console.log(esBarato);  
+ //[λ: esBarato] ​​​​​at ​​​​​​​​esBarato​​​ no tengo nada claro hasta que escribo la linea de abajo
   const productosBaratos = productos.filter(esBarato);
   console.log(productosBaratos);
 
